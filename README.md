@@ -14,7 +14,6 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon')
 sia = SentimentIntensityAnalyzer()
 
-# Example Facebook data 
 facebook_data = [
   "I love the new feature! It's amazing.",
   "The service was terrible. I'm very disappointed.",
